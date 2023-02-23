@@ -1,13 +1,15 @@
 class Diary
     def initialize
+        @entries = []
     end
   
     def add(entry) # entry is an instance of DiaryEntry
       # Returns nothing
+      @entries.push(entry)
     end
   
     def all
-      # Returns a list of instances of DiaryEntry
+        return @entries
     end
   
     def count_words
