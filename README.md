@@ -1,2 +1,1 @@
-Class colab project 1
-exit
+class collaboration project
